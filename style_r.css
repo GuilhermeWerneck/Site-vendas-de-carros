@@ -1,0 +1,92 @@
+body{
+    /*background-color:#161617;*/
+    background-image: url(img/carros/dodge.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(100%);
+    background-attachment: fixed;
+   
+}
+@font-face {
+    font-family: king;
+    src: url(fonte/king.ttf);
+
+}
+#div_forms{
+    border-style: none;
+    border-color: gold;
+    background-color:#242322;
+    width: 300px;
+    height: 120px;
+    margin:  auto;
+    margin-top: 180px;
+    margin-bottom: 10px;
+    padding: 150px;
+    font-family: king;
+    color:white;
+    border-radius: 10px;
+    padding-bottom: 220px;
+    background-attachment: fixed;
+          
+}
+#form_2{
+    width: 400px;
+    height: 100px;
+    margin-left: -90px;
+    margin-bottom: 15px;
+}
+#h1_entrar{
+    margin-top: -100px;
+    margin-left: -100px;
+    text-align: center;
+    font-size: 3em;
+    width: 510px;
+}
+.label_email{
+    margin-top: 30px;
+    margin-bottom: -15px;
+    font-size: 2em;
+    font-family: king;
+}
+
+#email_1{
+    width: 500px;
+    height: 30px;
+    border-radius:5px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+#entrar_1{
+    border: 1px solid rgb(0, 0, 0);
+    color: black;
+    font-size:16px;
+    border-width: 3px;
+    text-decoration: none;
+    background-color: white;
+    width: 158px;
+    height: 64px;
+    margin-left: 63px;
+}
+
+#entrar_1:hover{ 
+    color:white;
+    font-family: king, Helvetica, sans-serif;
+    border: solid white;
+    padding: 20px;
+    font-size:16px;
+    border-width: 3px;
+    text-decoration: none;
+    background-color: black;
+    width: 158px;
+    height: 64px;
+}
+
+#p_defi{
+    font-family: king;
+    font-size: 16px;
+    width: 500px;
+    margin-left: -90px;
+    margin-top: 40px;
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+
+.mais_vendido{
+    border-bottom: 2px solid gold;
+    margin-top: 60px;
+    text-align: center;
+    color: goldenrod;
+}
+
+.p_mais_vendido{
+    font-weight: bold;
+    font-family:sans-serif;
+}
+
+            /* MARCAS FILTROS */
+
+.marca_icon__prin{
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid gray ;
+    margin-top: 40px;   
+}
+
+
+#p_marcas{
+    margin-left: 40px;
+    font-size: 30px;
+    color: gold;
+}
+  
+.filtro_compra{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+            /* ICON DE COMPRAS */
+
+#icon_compras{
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.icones{
+    margin-left: 60px;
+    padding: 20px;
+    margin-top: 60px;
+    display:inline-block;
+    border:2px solid gold ;
+}
+
+.img_icon{
+    margin-top: 30px;
+    width: 200px;
+    height: 130px;
+}          
+
+.inf_compras{
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    color: gold;
+    font-weight: 600;
+}
+
+            /* BOTAO COMPRAR */
+.btn_comprar{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif; 
+    border: black;
+    background-color: gold;
+    width: 150px;
+    padding: 10px;
+}
+
+.btn_comprar:hover{ 
+    background-color: goldenrod;
+}

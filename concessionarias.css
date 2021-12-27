@@ -1,0 +1,167 @@
+#concessionaria_lojas{ 
+    width: 100%;
+    padding: 30px;
+    background-color: goldenrod;
+}
+
+.menu_lojas{
+    margin-left: 60px;
+}
+.lojas{ 
+    cursor: pointer;
+    margin-left: 50px;
+    display:inline-flex;
+    padding: 10px;
+    color: gold;
+    background-color: black;
+}
+
+.lojas:hover{
+    transition: 0.3s;
+    background-color: rgb(54, 52, 52);
+}
+
+.nome-loja{ 
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Karla', sans-serif;
+}
+
+.a_concessionaria{ 
+    text-decoration: none;
+    color: gold;
+}
+                    /* INFORMAÇÃO DA LOJA */
+
+
+#informacao-loja{  
+    margin-right: auto;
+    margin-left: auto; 
+    display:inline-flex ;
+}
+
+#inf_lojas{
+    border-radius: 9px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 400px;
+    background-color: gold; 
+    padding-bottom: 40px;
+    margin-left: 100px;
+}    
+
+.nome_titulo{
+    font-family: "ROBOTO";
+    margin-left:25px;
+    color: black; 
+    font-size: 20px;
+}
+
+.inf_subtitulo{ 
+    font-weight: 600;
+    font-family: "ROBOTO";
+    margin-left: 48px;
+}
+
+                    /* TELEFONES */
+
+.right{
+    margin-left: 20px;
+}
+
+.small_info{
+    font-family: "ROBOTO";
+    font-size: 13px;
+}
+
+.btn_telefone{
+    text-decoration: none;
+    cursor: pointer;
+    border: 0;
+    font-size: 15px;
+    color:gold;
+    background-color: black; 
+    padding: 14px;
+    border-radius: 8px;
+}
+
+.btn_telefone:hover{
+    text-decoration: underline;
+    background-color: rgb(56, 56, 56);
+}
+
+
+    /* MAPA */
+    
+.englobado{ 
+    width: 100%;
+    display: inline-flex;
+}
+
+#map_responsive{
+    margin-left: 30px;
+    display: contents;
+    padding-bottom:56.2%;
+}
+
+.map_responsive mapa{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+}
+
+.mapa{ 
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+    width: 50%;
+    height: 600px;
+}
+
+
+            /* resposividade do mapa */
+@media screen and (max-width: 1226px){
+    .mapa{ 
+        width: 580px;
+    }
+}
+
+@media screen and (max-width:1176px) {
+    .mapa{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 1044px) {
+    .englobado{ 
+        font-size: 15px;
+        display: inline-grid ;
+    }
+
+    .mapa{ 
+        width: 700px;
+    }
+
+    body{ 
+        padding-bottom: 50px;
+    }
+
+    #inf_lojas{ 
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .mapa{ 
+        width: 450px;
+    }
+}
+
+         /* RESPONSIVIDADE MENU  */
+@media screen and (max-width:510px){
+    #concessionaria_lojas{ 
+        display: inline;
+    }
+    
+} 

@@ -1,0 +1,154 @@
+body{
+    background-image: url(img/carros/camaro_bindao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(100%);
+    background-attachment: fixed;   
+}
+
+@font-face {
+    font-family: king;
+    src: url(fonte/king.TTF) format(truetype);
+    font-weight:normal;
+    font-style: normal;
+    
+}
+
+#div_forms{
+    border-style: none;
+    border-color: gold;
+    background-color:#242322;
+    width: 300px;
+    height: 150px;
+    margin:  auto;
+    margin-top: 180px;
+    margin-bottom: 120px;
+    padding: 150px;
+    font-family: king;
+    color:white;
+    border-radius: 10px;
+    padding-bottom: 200px;
+}
+#form_2{
+    width: 400px;
+    height: 100px;
+    margin-left: -90px;
+}
+#h1_entrar{
+    margin-top: -100px;
+    text-align: center;
+    font-size: 3em;
+}
+.label_email{
+    margin-top: 5px;
+    margin-bottom: -15px;
+    font-size: 2em;
+}
+
+.label_senha{ 
+    margin-top: 15px;
+    margin-bottom: -15px;
+    font-size: 2em;
+}
+#senha_1{
+    width: 500px;
+    height: 30px;
+    margin-right: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+#email_1{
+    width: 500px;
+    height: 30px;
+    border-radius:5px;
+    border-style: solid;
+    border-color: black;
+}
+
+#entrar_1{
+    color: black;
+    font-family:king;
+    border: solid black;
+    padding: 20px;
+    font-size:16px;
+    border-width: 3px;
+    text-decoration: none;
+    background-color: white;
+    width: 158px;
+    height: 64px;
+
+}
+
+
+#redef{
+    color: black;
+    font-family: king, Helvetica, sans-serif;
+    border: solid black;
+    padding: 0px;
+    font-size:16px;
+    border-width: 3px;
+    text-decoration: none;
+    background-color: white;
+    width: 158px;
+    height: 64px;
+}
+
+#redef:hover{ 
+    color: white;
+    font-family: king, Helvetica, sans-serif;
+    border: solid white;
+    padding: 0px;
+    font-size:16px;
+    border-width: 3px;
+    text-decoration: none;
+    background-color: black;
+    width: 158px;
+    height: 64px;
+}
+
+#entrar_1:hover{ 
+    color:white;
+    font-family: king, Helvetica, sans-serif;
+    border: solid white;
+    padding: 20px;
+    font-size:16px;
+    border-width: 3px;
+    text-decoration: none;
+    background-color: black;
+    width: 158px;
+    height: 64px;
+}
+
+.botoes{
+    text-align: right;
+    width: 400px;
+    height: 150px;
+    margin-top: 10px;
+
+}
+
+#eye{
+    width: 20px;
+    margin-top: -28px;
+    margin-left: 480px;
+    position: absolute;
+}
+#eye:hover{
+   filter: invert(50%);
+}
+
+
+                    /* ICONS */
+.icons{ 
+    font-family: sans-serif;
+    margin-left: 80px;
+    text-align: center;
+}
+
+.icons-login{
+    cursor: pointer;
+    margin-left: 15px;
+    width: 30px;
+}

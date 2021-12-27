@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="img/pneus/pneu(4).png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junin Automoveis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="slide1()">
+    
+    <div class="container">
+        <p onclick="acao()" id="menu-hamburg">&equiv;</p>
+        <div id="menu-mobile">
+            <div class="mobile-opcao">
+                <nav id="mobile-menu">
+                    <ul id="ul-mobile" >
+                    <li onclick="fechar()" class="li_mobile">Fechar</li>    
+                    <li class="li_mobile"><a href="comprar.html">Comprar</a></li>
+                    <li class="li_mobile"><a href="fale_conosco.html">Fale Conosco</a></li>
+                    <li class="li_mobile"><a href="Concessionarias.html">Concessionárias</a></li>
+                    <li class="li_mobile"><a href="entrar_1.html">Entrar</a></li>
+                    </ul>
+                </nav>    
+            </div>
+        </div>
+
+                            <!-- MENU PARA PC -->
+        <div id="menu-top">
+            <div class="class_menu">
+                <nav id="nav_menu">
+                    <ul id="id_menu" >
+                    <li class="li_menu"><a href="comprar.html">Comprar</a></li>
+                    <li class="li_menu"><a href="fale_conosco.html">Fale Conosco</a></li>
+                    <li class="li_menu"><a href="Concessionarias.html">Concessionárias</a></li>
+                    <li class="li_menu"><a href="entrar_1.html">Entrar</a></li>
+                    </ul>
+                </nav>    
+            </div>     
+        </div>
+        
+          
+                        <!-- BOTÃO PESQUISA -->
+      
+        <form class="barra_pesquisa" method="post" >
+               
+        <div class="pesquisa_mobile">
+            <p class="mobile_pesquisa">Junin Automoveis</p> <br>
+        </div>
+            <div class="class_pesquisa">   
+                <label class="label_pesquisa" for="pesquisa">Faça sua pesquisa </label> <br>
+                <input placeholder="ex:carro, marcas,Fabricantes, Fornecedores" class="inp_pesquisa" id="pesquisa" type="text">
+            </div>        
+        </form>
+    
+                        <!-- TEXTO Ofertas -->
+        <div class="texto_slide">
+            <h2>Melhores Ofertas</h2>
+        </div>    
+        
+
+        <div id="menu_vendas">
+            <div class="vendas">
+                <img  class="img_vendas" class="camaro_vendas" src="img/carros/azera.jpg" alt=""> 
+                <p class="informacao_venda" id="marca">Marca: Chevrolet</p> <br>
+                <p class="informacao_venda">Modelo: Camaro</p> <br>
+                <p class="informacao_venda">Motor: 6,2 l V8</p> <br>
+                <p class="informacao_venda">Peso: 1.694 - 1.788 kg</p> <br>
+                <p class="informacao_venda">velocidade: 250KM</p> <br>
+            </div>
+
+            <div class="vendas">
+                <img class="img_vendas" class="ferrai_vendas" src="img/carros/ferrari-vendas.jpg" alt=""> 
+                <p class="informacao_venda" id="marca">Marca: Ferrari</p> <br>
+                <p class="informacao_venda">Modelo: Omologata</p> <br>
+                <p class="informacao_venda">Motor: 6,5L V12</p> <br>
+                <p class="informacao_venda">Peso: 1.630kg</p> <br>
+                <p class="informacao_venda">Velocidade: 340KM</p> <br>
+            </div>
+
+            <div class="vendas">
+                <img class="img_vendas" class="porch_vendas" src="img/carros/porche911.jpg" alt=""> 
+                <p class="informacao_venda" id="marca">Marca: Porshe</p> <br>
+                <p class="informacao_venda">Modelo: Porshe 911</p> <br>
+                <p class="informacao_venda">Motor: 3,0L 6 Cilindros</p> <br>
+                <p class="informacao_venda">Peso: 1.505 - 1.710Kg</p> <br>
+                <p class="informacao_venda">Velocidade: 291 - 330KM </p>  
+            </div>
+
+            <div class="vendas">
+                <img class="img_vendas" class="camaro_vendas" src="img/carros/land-rover.JPEG" alt=""> 
+                <p class="informacao_venda" id="marca">Marca: Land Rover</p> <br>
+                <p class="informacao_venda">Modelo: Land Rover Evoque</p> <br>
+                <p class="informacao_venda">Motor: 2,0L 4 cilindros</p> <br>
+                <p class="informacao_venda">Peso: 1.694 - 1.788 kg</p> <br>
+                <p class="informacao_venda">Velocidade: 230Km</p>              
+            </div>
+
+            <div class="vendas">
+                <img class="img_vendas" class="camaro_vendas" src="img/carros/hyundai_hb20.jpg" alt=""> 
+                <p class="informacao_venda" id="marca">Marca: Hyundai</p> <br>
+                <p class="informacao_venda">Modelo: HB20</p> <br>
+                <p class="informacao_venda">Motor:  1,6l 4 cilindros em linha</p> <br>
+                <p class="informacao_venda">Peso: 989 - 1.120 kg</p> <br>
+                <p class="informacao_venda">velocidade: 200km</p> <br>
+            </div>
+            
+            <div class="vendas">
+                <img class="img_vendas" class="camaro_vendas" src="img/carros/fiat-strada-endurance-2020-5.jpg" alt=""> 
+                <p class="informacao_venda" id="marca">Marca: FIAT</p> <br>
+                <p class="informacao_venda">Modelo: Estrada</p> <br>
+                <p class="informacao_venda">Motor: 1.3 Firefly</p> <br>
+                <p class="informacao_venda">Peso: 1.084kg</p> <br>
+                <p class="informacao_venda">velocidade: 165km</p> <br>
+            </div>     
+            
+            <div class="vendas">
+                <img class="img_vendas" class="camaro_vendas" src="img/carros/toyota_corolla.jpg" alt=""> 
+                <p class="informacao_venda" id="marca">Marca: Toyota</p> <br>
+                <p class="informacao_venda">Modelo: Corolla</p> <br>
+                <p class="informacao_venda">Motor: 2.0 Dynamic Force</p> <br>
+                <p class="informacao_venda">Peso: 1.375 - 1.445 kg</p> <br>
+                <p class="informacao_venda">velocidade: 199km</p> <br>
+            </div>     
+
+            <div class="vendas">
+                <img class="img_vendas" class="camaro_vendas" src="img/carros/gol.jpg" alt=""> 
+                <p class="informacao_venda" id="marca">Marca:  Volkswagen</p> <br>
+                <p class="informacao_venda">Modelo: Gol</p> <br>
+                <p class="informacao_venda">1,6l 4 cilindros em linha</p> <br>
+                <p class="informacao_venda">Peso: 1.031 kg kg</p> <br>
+                <p class="informacao_venda">velocidade: 182 km</p> <br>
+            </div>     
+        </div>        
+        
+                <!-- TEXTO Categorias -->
+
+            <div class="categoria_veiculo">
+                <h1>Categorias</h1>
+            </div>
+   
+
+                              <!-- ESCOLHA DE VEICULOS -->
+
+        <div id="veiculos_diversos">
+            <div class="escolha_veiculo">
+                    <img class="bkgr_variadade" src="img/carros/suv.jpg" alt="">
+                    <p class="suv" id="p_variedades">SUVS</p>
+            
+            </div>
+
+                <div class="escolha_veiculo">
+                <img class="bkgr_variadade" src="img/carros/SEDANS.jpg" alt="">
+                <p class="sedans" id="p_variedades">SEDANS</p>
+            </div>
+
+            <div class="escolha_veiculo">
+                <img class="bkgr_variadade" src="img/carros/esportivo.jpg" alt="">
+                <p class="esportivo" id="p_variedades">ESPORTIVO</p>
+            </div> 
+
+            <div class="escolha_veiculo">
+                <img class="bkgr_variadade" src="img/carros/picape.jpg" alt="">
+                <p class="PICAP" id="p_variedades">PICAPE</p>
+            </div>
+         
+        </div>
+
+                    <!-- RODA PÉ -->
+
+        <footer id="pe">
+            <div class="rodape">
+                <h1 class="h1_rodape">Creditos á: Guilherme, Jonas, João(Plus Plus)</h1>
+            </div>
+        </footer>
+
+            
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

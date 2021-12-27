@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style_e.css">
+    <link rel="icon" href="img/pneus/pneu(4).png">
+    <title>Entrar</title>
+</head>
+
+<body>
+    <div id="div_forms">
+        <h1 id="h1_entrar"><strong>ENTRAR</strong></h1>
+        <form id="form_2">
+            <label for="email_1">
+                <p class="label_email">Email:</p>
+            </label><br>
+            <input type="text" id="email_1" placeholder="Digite seu Email aqui"><br>
+
+            <label for="senha_1">
+                <p class="label_senha">Senha</p>
+            </label><br>
+            <input type="password" id="senha_1" placeholder="Digite sua Senha aqui">
+
+            <img src="img/mostrar-senha.png" onclick="mudarsenha()" id="eye"></img>
+            <br>
+            
+            <div class="botoes">
+                <input type="reset" id="entrar_1" value="Entrar" onclick="verificar()">
+                <input type="reset" id="redef" value="Esqueci a senha" onclick="window.location.href='redefinir.html'">
+                
+            <div class="icons">
+                <p>Conecte-se também com: </p> 
+                <img class="icons-login" src="img/icons/facebook.png" alt="icons-conectar-com-Facebook">
+                <img class="icons-login" src="img/icons/google.png" alt="icons-conectar-com-Google">
+            </div>
+
+            </div>
+        </form>
+    </div>
+    <script src="entrar_1.js"></script>
+</body>
+</html>

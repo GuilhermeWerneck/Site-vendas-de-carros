@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="fale_conoscoJS.js"></script>
+    <link rel="stylesheet" href="fale_css.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="img/pneus/pneu(4).png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <p onclick="acao()" id="menu-hamburg">&equiv;</p>
+        <div id="menu-mobile">
+            <div class="mobile-opcao">
+                <nav id="mobile-menu">
+                    <ul id="ul-mobile" >
+                    <li onclick="fechar()" class="li_mobile">Fechar</li>    
+                    <li class="li_mobile"><a href="comprar.html">Comprar</a></li>
+                    <li class="li_mobile"><a href="fale_conosco.html">Fale Conosco</a></li>
+                    <li class="li_mobile"><a href="Concessionarias.html">Concessionárias</a></li>
+                    <li class="li_mobile"><a href="entrar_1.html">Entrar</a></li>
+                    </ul>
+                </nav>    
+            </div>
+        </div>
+        <div id="menu-top">
+            <div class="class_menu">
+                <nav id="nav_menu">
+                    <ul id="id_menu" >
+                    <li class="li_menu"><a href="index.html">Inicio</a></li>
+                    <li class="li_menu"><a href="comprar.html">Comprar</a></li>
+                    <li class="li_menu"><a href="fale_conosco.html">Fale Conosco</a></li>
+                    <li class="li_menu"><a href="Concessionarias.html">Concessionárias</a></li>
+                    <li class="li_menu"><a href="entrar_1.html">Entrar</a></li>
+                    </ul>
+                </nav>    
+            </div>     
+        </div>
+
+                <!-- FALE CONOSCO IMG  -->
+
+        <div class="fale_conosco">
+            <div class="p_fale_conosco">
+                <h1 class="h1_fale_conosco">Fale Conosco</h1>
+            </div>
+        </div>
+    </div>
+
+                <!-- DENUNCIA -->
+    <div id="problema">            
+        <form class="prin_denuncia" action="">
+            
+            <h1 class="paragrafo_denuncia"> Fale conosco</h1>
+
+            <div class="tipo_problema">
+                <h3 class="paragrafo_denuncia">Informe o tipo de problema:</h3>
+                <select name="selecionar_problema" id="caixa_problema">
+                    <option value="proble">Não estou conseguindo fazer o pagamento!</option>
+                    <option value="proble">Não consigo pagar com Boleto!</option>
+                    <option value="proble">Não tem minha bandeira de cartão! </option>
+                    <option value="proble">A promoção que eu queria acabou!</option>
+                    <option value="proble">Outros</option>
+                </select>
+            </div>    
+
+            <div class="info_problema">
+                <h3 class="paragrafo_problema">Informe melhor sobre o problema! :</h3>
+                <textarea name="explicar_problema" id="area_explicar_problema" cols="30" rows="8"></textarea> <br> <br>
+                <input class="btn_denuncia" type="button" onclick="validar()" value="Enviar">
+                <input class="btn_denuncia"  type="reset" value="Limpar"> <br> <br>
+
+            </div>
+
+            <div class="contato">
+                <h3 class="p_telefone">Telefone para contato:</h3>
+                <a class="a_telefone" href="tel:+6494461709">(15) 9999-99999</a>
+                <a class="a_telefone" href="tel:+6494461709">(15) 9999-99999</a>
+                <a class="a_telefone" href="tel:+1540028922">(15) 4002-8922</a>
+                
+            </div>
+        </form>   
+
+        <footer id="pe">
+            <div class="rodape">
+                <h1 class="h1_rodape">Creditos á: Guilherme, Jonas, João(Plus Plus)</h1>
+            </div>
+        </footer>
+
+            
+    </div>
+    <script src="index.js"></script>    
+</body>
+</html>

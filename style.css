@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+html, body{ 
+    overflow-x: hidden;
+}
+
+body{ 
+    background-color: rgb(27, 26, 26);
+    margin: 0;
+    padding: 0;
+}
+
+#id_menu{
+    margin: 0
+}
+
+#nav_menu{    
+    font-weight: bolder;
+    font-family: 'Karla', sans-serif;
+    padding:0px;overflow-x: hidden;
+    background-color: black;
+    margin: 0;
+    text-align: right;
+}
+
+#nav_menu .li_menu{ 
+    display: inline;
+}
+
+#id_menu .li_menu a {
+    margin-right: 20px;
+    display: inline-block;
+    padding:20px; 
+    color: gold;
+    text-decoration: none;
+}
+
+#nav_menu .li_menu a:hover { 
+    background-color: darkred;
+} 
+
+            /* MENU MOBILE */
+
+#menu-hamburg{   
+  
+    padding: 9px;
+    margin:0;
+    width: 0;
+    display: none;
+    margin-left: 50px;
+    color: gold;
+    font-size: 30px;
+}
+#ul-mobile{   
+ 
+    padding: 0;
+}
+
+.li_mobile {    
+  
+    width: 100%;
+    padding: 20px;
+    color: gold;
+    list-style: none;
+    text-decoration: none;
+}
+
+#mobile-menu{
+   
+    display: none;
+    overflow: hidden;
+    width:auto;
+    height: 100%;    
+    text-align: center;
+    background-color: black;
+}
+
+#ul-mobile .li_mobile a{   
+    color: gold;
+    text-decoration: none;
+}
+.li_mobile:hover{
+    transition: 1s;
+    width: 100%;
+    background-color:darkred;
+}
+
+
+
+            /* barra pesquisar */
+
+.barra_pesquisa{ 
+    width: 100%;
+    background-size: cover;
+    height: 500px;
+    background-image: url(img/carros/the-headlights-and-the-hood-of-a-black-luxury-car.jpg);
+    padding: 20px;
+    text-align: center;
+}   
+
+
+.inp_pesquisa{
+    margin-top: 20px;
+    background-color:darkgray ;
+    border-color:gray;
+    border-radius: 20px;
+    height: 40px;
+    width: 500px;
+}
+
+
+.label_pesquisa{ 
+    color:lightgoldenrodyellow;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+}
+
+.pesquisa_mobile{ 
+    display: none;
+}
+
+.mobile_pesquisa {
+    display: inline-flex;
+    background-color: black;
+    border-radius: 7px;
+    padding: 40px;
+    margin-top: 230px;
+    color:lightgoldenrodyellow;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 39px;
+    font-weight: 700;
+    color: white;
+}
+
+.class_pesquisa{
+    margin-right: auto;
+    margin-left: auto;
+    width:600px;
+    padding: 20px;
+    padding-bottom: 30px;
+    background-color: rgb(22, 18, 18);
+    margin-top: 80px;
+    border-radius: 9px;
+}
+
+
+            /* TEXTO MELHORES OFERTAS */
+
+.texto_slide{
+    margin-top: 20px;
+    color: gold;
+    border-width: 20px;
+    border-bottom: 2px solid darkgoldenrod;
+    font-family:'Roboto', sans-serif;
+    text-align: center
+}
+
+            /* MENU VENDAS */
+
+.vendas{
+    background-color: rgb(27, 26, 26);
+    margin-top: 30px; 
+    display:inline-grid;
+    margin-left: 40px;
+    width: 350px;
+    border-radius: 7px;
+    border: 2px solid ;
+    border: 1px solid gold;
+}
+
+#menu_vendas{
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+.img_vendas{
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width:280px;
+   
+}
+
+#marca{
+    font-family: 'Karla', sans-serif;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.informacao_venda{ 
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
+    margin-top:10px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: left;
+    color: gold;
+    
+}
+
+
+                /* categoria */
+.categoria_veiculo{
+    text-align: center;
+    border-bottom: 2px solid goldenrod;
+    font-family:'Paytone One', sans-serif;
+    margin-top: 60px;
+    color: gold;
+}
+
+                 /* ESCOLHA DE VEICULOS  */
+
+#veiculos_diversos{
+    text-align: center;
+}
+
+.escolha_veiculo{
+    color: white;
+    cursor: pointer;
+    margin: 20px;
+    position: relative;
+    display: inline-flex;
+    margin-top: 40px;
+}
+
+.bkgr_variadade{
+    border-radius: 9px;
+    display: block;
+    width: 350px;
+    height: 200px;
+}
+
+#p_variedades{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Righteous', cursive;
+    margin-top: 200px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+}
+
+            /* RODAPÉ */
+
+#pe{
+    text-align: center;
+    height: 200px;
+    background-color: gold;
+    margin-top: 100px;
+    width: 100%;
+
+}
+
+.rodape{   
+    margin-left: 80px; 
+    display:inline-grid;
+}
+
+.h1_rodape{ 
+    font-family: sans-serif;
+    margin-top: 80px;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 705px){
+
+    .class_pesquisa{ 
+        margin-top: 40px;
+    }
+
+    #menu-hamburg{ 
+        cursor: pointer;
+        margin-top: 10px;
+        display: block;
+    }
+
+    #nav_menu{
+        display: none;
+}
+
+@media screen and ( max-width:1000px ) {
+    .class_pesquisa{ 
+        display:none;
+    }
+
+    .pesquisa_mobile{ 
+        display: block;
+    }
+}
